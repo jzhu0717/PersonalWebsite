@@ -35,30 +35,28 @@ export const NavBar = () => {
     // navbar look
     return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container fluid className="justify-content-center">
+      <Navbar expand="md" className={`flex justify-center w-full ${scrolled ? "scrolled" : ""}`}>
+        <Container fluid className="d-flex justify-content-around align-items-center">
       
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+          <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-around align-items-center flex-wrap w-100">
+            <Nav className="d-flex justify-content-around align-items-center flex-wrap w-100">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              
-              {/* embed resume later down on the page */}
               <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
 
               <Nav.Link href="https://github.com/jzhu0717" target="_blank" rel="noopener noreferrer" className="navbar-link">
-                <img src={gitub} alt="GitHub" style={{ width: '24px', height: '24px' }} onClick={'www.google.com'}/>
+                <img src={gitub} alt="GitHub" style={{ width: '18px', height: '18px' }} />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/joshua-zhu-82bb601b4/" target="_blank" rel="noopener noreferrer" className="navbar-link">
-                <img src={linkdn} alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
+                <img src={linkdn} alt="LinkedIn" style={{ width: '18px', height: '18px' }} />
               </Nav.Link>
               <Nav.Link href="mailto:joshuazjzhu@gmail.com" className="navbar-link">
-                <img src={gmail} alt="Gmail" style={{ width: '24px', height: '24px' }} />
+                <img src={gmail} alt="Gmail" style={{ width: '18px', height: '18px' }} />
               </Nav.Link>
-
             </Nav>
           </Navbar.Collapse>
+
         </Container>
       </Navbar>
     </Router>
