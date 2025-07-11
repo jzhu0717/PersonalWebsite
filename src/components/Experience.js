@@ -1,30 +1,27 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
 import { Card } from "./Card";
-import projImg1 from "../assets/img/p3img.gif";
-import projImg2 from "../assets/img/p3img.gif";
-import projImg3 from "../assets/img/p3img.gif";
+import exp1 from "../assets/img/exp1.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const Experience = () => {
 
-  const projects = [
+  const experience = [
     {
-      title: "Proj1 name",
-      description: "description",
-      imgUrl: projImg1,
+      title: "Software Developer Intern @ USDA",
+      description: "Worked as a Software Developer Intern at USDA-APHIS from May 2024 to August 2024, developing a web application for streamlining the organization of plant virus testing.",
+      imgUrl: exp1,
     },
     {
-      title: "Proj2 name",
-      description: "description",
-      imgUrl: projImg2,
+      title: "Computer Science B.S. @ University of Maryland, College Park",
+      description: "Currently an undergraduate student in Computer Science at the University of Maryland with a planned graduation in 2027.",
+      imgUrl: exp1,
     },
-    // {
-    //   title: "proje3",
-    //   description: "description",
-    //   imgUrl: projImg3,
-    // },
-
+    {
+      title: "IB Diploma @ Urbana High School, Maryland",
+      description: "Graduated May 2023 with an International Baccalaureate (IB) Diploma from Urbana High School.",
+      imgUrl: exp1,
+    },
   ];
 
   return (
@@ -35,15 +32,15 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Personal projects I have worked on and developed!</p>
+                <h2>Experience</h2>
+                <p>A little bit about my professional background and experience!</p>
                 <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Row className="g-4">
                         {
-                            projects.map((project, index) => {
+                            experience.map((exp, index) => {
                             return (
                                 <Card key={index}
-                                {...project}/>
+                                {...exp}/>
                             )})
                         }
                     </Row>
