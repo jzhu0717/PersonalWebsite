@@ -1,8 +1,7 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
-import { Card } from "./Card";
-import projImg1 from "../assets/img/p3img.gif";
+import { ProjCard } from "./ProjCard";
+import employsim from "../assets/img/proj1logo.png";
 import projImg2 from "../assets/img/p3img.gif";
-import projImg3 from "../assets/img/p3img.gif";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -10,14 +9,16 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Proj1 name",
-      description: "description",
-      imgUrl: projImg1,
+      title: "Object Detector / Profiler",
+      description: "WORK IN PROGRESS! :)\n\nBuilt with Python",
+      imgUrl: projImg2,
+      link: "https://github.com/jzhu0717/brainrotCamera"
     },
     {
-      title: "Proj2 name",
-      description: "description",
-      imgUrl: projImg2,
+      title: "Employee Storage Manager",
+      description: "Created a program to oversee employees and their data in a hypothetical (or not!) management system.\n\nBuilt with Node.js, MySQL",
+      imgUrl: employsim,
+      link: "https://github.com/jzhu0717/EmployeeManagmentSim"
     },
     // {
     //   title: "proje3",
@@ -42,7 +43,7 @@ export const Projects = () => {
                         {
                             projects.map((project, index) => {
                             return (
-                                <Card key={index}
+                                <ProjCard key={index}
                                 {...project}/>
                             )})
                         }

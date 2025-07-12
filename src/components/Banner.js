@@ -63,7 +63,7 @@ export const Banner = () => {
                   <p>Hi! I'm Josh Zhu. I am a 3rd year undergraduate B.S. Computer Science student at the University of Maryland. 
                     <br />
                     <br />
-                    yuh
+                    I am passionate about 
 
 
 

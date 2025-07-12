@@ -45,12 +45,12 @@ export const NavBar = () => {
               <div class="d-flex justify-content-center">
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Connect</Nav.Link>
+                <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
               </div>
               
               <div class="d-flex justify-content-center">
                 <Nav.Link href="https://github.com/jzhu0717" target="_blank" rel="noopener noreferrer" className="navbar-link">
-                <img src={gitub} alt="GitHub" style={{ width: '18px', height: '18px' }} />
+                  <img src={gitub} alt="GitHub" style={{ width: '18px', height: '18px' }} />
                 </Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/joshua-zhu-82bb601b4/" target="_blank" rel="noopener noreferrer" className="navbar-link">
                   <img src={linkdn} alt="LinkedIn" style={{ width: '18px', height: '18px' }} />
