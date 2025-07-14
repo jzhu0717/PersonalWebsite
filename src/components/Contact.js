@@ -74,6 +74,9 @@ export const Contact = () => {
           </Col>
           <Col size={12} md={6}>
             <h2>Resume</h2>
+            <object data="../assets/img/jzhuresume.pdf" type="application/pdf" width="100%" height="100%">
+                <p>jzhuresume.pdf<a href="../assets/img/jzhuresume.pdf"></a></p>
+            </object>
           </Col>
         </Row>
       </Container>
