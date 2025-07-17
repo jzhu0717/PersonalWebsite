@@ -4,6 +4,17 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import exp1 from "../assets/img/exp1.jpg";
 import pythoN from "../assets/img/python.png";
+import jv from "../assets/img/java.png";
+import c from "../assets/img/c.png";
+import rust from "../assets/img/rust.png";
+import cpp from "../assets/img/cpp.png";
+import csh from "../assets/img/csh.png";
+import ocaml from "../assets/img/ocaml.png";
+import react from "../assets/img/react.png";
+import sql from "../assets/img/sql.png";
+import dj from "../assets/img/dj.png";
+import aws from "../assets/img/aws.png";
+import htmlcss from "../assets/img/htmlcss.png";
 
 export const Skills = () => {
     const skills = [
@@ -15,57 +26,57 @@ export const Skills = () => {
       {
         title: "Java",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: jv,
       },
       {
         title: "C",
         description: "skill2",
-        imgUrl: exp1,
-      },
-      {
-        title: "OCaml",
-        description: "skill2",
-        imgUrl: exp1,
+        imgUrl: c,
       },
       {
         title: "Rust",
         description: "skill2",
-        imgUrl: exp1,
-      },
-      {
-        title: "JavaScript",
-        description: "skill2",
-        imgUrl: exp1,
+        imgUrl: rust,
       },
       {
         title: "C++",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: cpp,
       },
       {
         title: "C#",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: csh,
       },
       {
-        title: "HTML",
+        title: "OCaml",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: ocaml,
       },
       {
-        title: "CSS",
+        title: "React",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: react,
+      },
+      {
+        title: "HTML/CSS",
+        description: "skill2",
+        imgUrl: htmlcss,
       },
       {
         title: "SQL",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: sql,
+      },
+      {
+        title: "Django",
+        description: "skill2",
+        imgUrl: dj,
       },
       {
         title: "AWS",
         description: "skill2",
-        imgUrl: exp1,
+        imgUrl: aws,
       },
     ];
 

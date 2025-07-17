@@ -5,7 +5,7 @@ import React from "react";
 export const Card = ({ title, description, imgUrl }) => {
   return (
     <Col xs={4} sm={4} md={3} lg={3} className="proj-col">
-      <div className="proj-imgbx">
+      <div className="skill-imgbx">
         <img src={imgUrl} alt="img"/>
         <div className="proj-txtx">
           <h4>{title}</h4>

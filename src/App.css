@@ -338,21 +338,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
-}
 .background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+.skill-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  height: 300px;
+  cursor: pointer;
+  /* max-height: 300px; */
+}
+.skill-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.skill-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #878787 -5.91%, #5E5E5E 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.skill-imgbx:hover::before {
+  height: 100%;
 }
 
 /************ Projects Css ************/
