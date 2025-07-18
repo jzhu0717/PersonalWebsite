@@ -25,10 +25,10 @@ export const Contact = () => {
     setButtonText("Sending...");
 
     emailjs.sendForm(
-      'service_sd2sqjr',
-      'template_dgxwg46',
+      'SERVICEKEY',
+      'TEMPLATEKEY',
       e.target, // form element
-      'dLLqgDVahy3Y9XWb1'
+      'TARGETKEY'
     ).then((result) => {
       console.log(result.text);
       setStatus({ success: true, message: "Message sent successfully!" });
