@@ -55,9 +55,6 @@ export const NavBar = () => {
                 <Nav.Link href="https://www.linkedin.com/in/joshua-zhu-82bb601b4/" target="_blank" rel="noopener noreferrer" className="navbar-link">
                   <img src={linkdn} alt="LinkedIn" style={{ width: '18px', height: '18px' }} />
                 </Nav.Link>
-                <Nav.Link href="mailto:joshuazjzhu@gmail.com" className="navbar-link">
-                  <img src={gmail} alt="Gmail" style={{ width: '18px', height: '18px' }} />
-                </Nav.Link>
               </div>
               
             </Nav>

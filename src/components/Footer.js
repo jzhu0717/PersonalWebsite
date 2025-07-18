@@ -26,7 +26,6 @@ export const Footer = () => {
                     <img src={gmail} alt="Gmail" style={{ width: '18px', height: '18px' }} />
                 </Nav.Link>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

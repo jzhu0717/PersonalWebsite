@@ -43,7 +43,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -74,11 +74,15 @@ export const Contact = () => {
               </div>}
             </TrackVisibility>
           </Col>
+          {/* resume section */}
           <Col size={12} md={6}>
             <h2>Resume</h2>
-            <object data="../assets/img/jzhuresume.pdf" type="application/pdf" width="100%" height="100%">
-                <p>jzhuresume.pdf<a href="../assets/img/jzhuresume.pdf"></a></p>
+            <object data="/jzhuresume.pdf" type="application/pdf" width="100%" height="600px">
+              <p>
+                Your browser doesn't support PDFs.
+              </p>
             </object>
+            <a href="/jzhuresume.pdf" download className="btn btn-primary" style={{ marginTop: "1rem" }}>Download</a>
           </Col>
         </Row>
       </Container>

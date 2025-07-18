@@ -10,7 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  const [, setIndex] = useState(1);
   const toRotate = [ ". . ." ];
   const period = 2000;
 
@@ -19,6 +19,7 @@ export const Banner = () => {
       tick();
     }, delta);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return () => { clearInterval(ticker) };
   }, [text])
 
@@ -60,13 +61,11 @@ export const Banner = () => {
                     <br />
                     <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer" ]'><span className="wrap">{text}</span></span>
                 </h1>
+                  <br />
                   <p>Hi! I'm Josh Zhu. I am a 3rd year undergraduate B.S. Computer Science student at the University of Maryland. 
                     <br />
                     <br />
-                    I am passionate about 
-
-
-
+                    I am passionate about computer science, especially how it intersects with the real world, such as with computer vision, machine learning, and data science.
                   </p>
               </div>}
             </TrackVisibility>
