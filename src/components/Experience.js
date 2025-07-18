@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
 import { Card } from "./Card";
 import exp1 from "../assets/img/exp1.jpg";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Experience = () => {

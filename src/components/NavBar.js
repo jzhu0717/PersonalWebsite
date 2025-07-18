@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import gitub from '../assets/img/gitub.png';
 import linkdn from '../assets/img/linkdn.png';
-import gmail from '../assets/img/gmail.svg';
 import { useState, useEffect } from 'react';
 import {
   BrowserRouter as Router

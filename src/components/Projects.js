@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab} from "react-bootstrap";
 import { ProjCard } from "./ProjCard";
 import employsim from "../assets/img/proj1logo.png";
 import projImg2 from "../assets/img/p3img.gif";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {

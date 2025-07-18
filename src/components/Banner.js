@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headpic from "../assets/img/headpic.jpg";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {

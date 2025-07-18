@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab} from "react-bootstrap";
 import { Card } from "./SkillCard";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import pythoN from "../assets/img/python.png";
 import jv from "../assets/img/java.png";
