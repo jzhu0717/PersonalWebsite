@@ -1,3 +1,5 @@
-# Personal portfolio website (currently work in progress)
+# Personal portfolio website 
 
-yuh
+www.joshzhu.live
+
+yes
