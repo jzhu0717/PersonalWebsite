@@ -5,7 +5,7 @@ import pythoN from "../assets/img/python.png";
 import jv from "../assets/img/java.png";
 import c from "../assets/img/c.png";
 import rust from "../assets/img/rust.png";
-import cpp from "../assets/img/cpp.png";
+import js from "../assets/img/js.png";
 import csh from "../assets/img/csh.png";
 import ocaml from "../assets/img/ocaml.png";
 import react from "../assets/img/react.png";
@@ -18,62 +18,62 @@ export const Skills = () => {
     const skills = [
       {
         title: "Python",
-        description: "desc",
+        description: "Experienced in the Python language and its libraries for a variety of applications, including data analysis, computer vision, and web development.",
         imgUrl: pythoN,
       },
       {
         title: "Java",
-        description: "skill2",
+        description: "Proficient at developing applications from scratch with Java, such as object-oriented programming and graphics.",
         imgUrl: jv,
       },
       {
         title: "C",
-        description: "skill2",
+        description: "Proficient in C programming, with experience in systems programming and low-level development.",
         imgUrl: c,
       },
       {
-        title: "Rust",
-        description: "skill2",
-        imgUrl: rust,
-      },
-      {
-        title: "C++",
-        description: "skill2",
-        imgUrl: cpp,
-      },
-      {
         title: "C#",
-        description: "skill2",
+        description: "Proficient in C# for developing Windows applications, games, and web services.",
         imgUrl: csh,
       },
       {
+        title: "Rust",
+        description: "Skilled at using Rust to program safe and efficient software.",
+        imgUrl: rust,
+      },
+      {
         title: "OCaml",
-        description: "skill2",
+        description: "Experienced in functional programming with OCaml.",
         imgUrl: ocaml,
       },
       {
+        title: "JavaScript",
+        description: "Proficient in building web applications with JavaScript.",
+        imgUrl: js,
+      },
+      {
         title: "React",
-        description: "skill2",
+        description: "Skilled in building web applications with React.",
         imgUrl: react,
       },
       {
+        title: "Django",
+        description: "Skilled in building web applications with Django.",
+        imgUrl: dj,
+      },
+      {
         title: "HTML/CSS",
-        description: "skill2",
+        description: "Able to create visually appealing and responsive front end using HTML and CSS.",
         imgUrl: htmlcss,
       },
       {
         title: "SQL",
-        description: "skill2",
+        description: "Experienced in SQL for database management and data manipulation.",
         imgUrl: sql,
       },
       {
-        title: "Django",
-        description: "skill2",
-        imgUrl: dj,
-      },
-      {
         title: "AWS",
-        description: "skill2",
+        description: "Skilled in using AWS services for cloud deployment, hosting, storage, and more.",
         imgUrl: aws,
       },
     ];

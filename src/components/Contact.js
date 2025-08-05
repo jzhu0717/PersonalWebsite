@@ -76,12 +76,12 @@ export const Contact = () => {
           {/* resume section */}
           <Col size={12} md={6}>
             <h2>Resume</h2>
-            <object data="/jzhuresume.pdf" type="application/pdf" width="100%" height="600px">
+            <object data="/jzhuResume.pdf" type="application/pdf" width="100%" height="600px">
               <p>
                 Your browser doesn't support PDFs.
               </p>
             </object>
-            <a href="/jzhuresume.pdf" download className="btn btn-primary" style={{ marginTop: "1rem" }}>Download</a>
+            <a href="/jzhuResume.pdf" download className="btn btn-primary" style={{ marginTop: "1rem" }}>Download</a>
           </Col>
         </Row>
       </Container>
